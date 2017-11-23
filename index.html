@@ -24,6 +24,10 @@
                         <li><a href="http://">Contact</a></li>
                     </ul>
                 </nav>
+
+                <div class="nav-toggle">
+                    <div class="hamburger"></div>
+                </div>
             </div>
         </header>
 
@@ -40,11 +44,11 @@
                     <a href="" class="btn btn-primary">Get the App</a>
                 </div>
             </div>
+            
+            <div class="col">
+                <img src="img/phone.png" alt="" class="hero-img">
+            </div>
         </section>
-
-        <div class="col">
-            <img src="img/phone.png" alt="" class="hero-img">
-        </div>
         
         <!-- Sales Points
         ================= -->
@@ -126,7 +130,16 @@
             </ul>
         </footer>
 
+        <!-- Load the CDN first -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!-- If CDN fails to load, server up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>');</script>
 
+        <!-- Main Javascript -->
+        <script src="js/main.js"></script>
+
+        <!-- Load Font Awesome CDN -->
         <script src="https://use.fontawesome.com/fd466b2eef.js"></script>
     </body>
 </html>
