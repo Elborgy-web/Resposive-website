@@ -1,0 +1,41 @@
+footer
+    background: $dark
+    color: $text-inverse
+    padding: 3em 0 5em 
+    position: relative
+
+    &::before
+        content: ""
+        display: block
+        position: absolute
+        top: 0
+        bottom: 0
+        right: 0
+        left: 0
+        background: url('../img/logo.svg')
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center
+        opacity: 0.05
+
+    a
+        color: $text-inverse
+
+.social-links
+    display: flex
+    font-size: 3rem
+    justify-content: space-around
+    opacity: 0.8
+    margin: 0.7em 0
+
+.nav-footer
+    display: flex
+    justify-content: space-around
+    // remember to add margin auto right & left when you specify a width
+    margin: 0  auto
+
+    a
+        font-weight: $font-bold 
+
+.container-footer
+    max-width: 30em

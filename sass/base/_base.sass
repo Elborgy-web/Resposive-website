@@ -3,6 +3,7 @@
 
 body
     color: $text-main
+    text-align: center
 
 img
     max-width: 100%
@@ -13,11 +14,23 @@ a
 
 .container
     width: 100%
-    max-width: 1200px
-    margin: 0 
+    max-width: 960px
+    margin: 0 auto
     padding: 1.2em
     
 .unstyled-list
     margin: 0
     padding: 0
     list-style: none
+
+.lg-screen
+    display: none
+
+    @media (min-width: 725px)
+        display: block
+        
+
+.bg-primary
+    background: $main
+    color: $text-inverse
+    padding: 5em 2.5em
